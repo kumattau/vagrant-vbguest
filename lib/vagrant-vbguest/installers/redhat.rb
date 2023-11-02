@@ -25,7 +25,6 @@ module VagrantVbguest
 
       def dependencies
         [
-          'kernel-devel',
           'kernel-devel-`uname -r`',
           'gcc',
           'binutils',
